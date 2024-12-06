@@ -1,0 +1,546 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TestPrivateFramework",
+    "printedName": "TestPrivateFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestPrivateFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CardType",
+        "printedName": "CardType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "visa",
+            "printedName": "visa",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TestPrivateFramework.CardType.Type) -> TestPrivateFramework.CardType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardType",
+                    "printedName": "TestPrivateFramework.CardType",
+                    "usr": "s:20TestPrivateFramework8CardTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TestPrivateFramework.CardType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardType",
+                        "printedName": "TestPrivateFramework.CardType",
+                        "usr": "s:20TestPrivateFramework8CardTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20TestPrivateFramework8CardTypeO4visayA2CmF",
+            "mangledName": "$s20TestPrivateFramework8CardTypeO4visayA2CmF",
+            "moduleName": "TestPrivateFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "masterCard",
+            "printedName": "masterCard",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TestPrivateFramework.CardType.Type) -> TestPrivateFramework.CardType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardType",
+                    "printedName": "TestPrivateFramework.CardType",
+                    "usr": "s:20TestPrivateFramework8CardTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TestPrivateFramework.CardType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardType",
+                        "printedName": "TestPrivateFramework.CardType",
+                        "usr": "s:20TestPrivateFramework8CardTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20TestPrivateFramework8CardTypeO06masterD0yA2CmF",
+            "mangledName": "$s20TestPrivateFramework8CardTypeO06masterD0yA2CmF",
+            "moduleName": "TestPrivateFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "americanExpress",
+            "printedName": "americanExpress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TestPrivateFramework.CardType.Type) -> TestPrivateFramework.CardType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardType",
+                    "printedName": "TestPrivateFramework.CardType",
+                    "usr": "s:20TestPrivateFramework8CardTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TestPrivateFramework.CardType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardType",
+                        "printedName": "TestPrivateFramework.CardType",
+                        "usr": "s:20TestPrivateFramework8CardTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20TestPrivateFramework8CardTypeO15americanExpressyA2CmF",
+            "mangledName": "$s20TestPrivateFramework8CardTypeO15americanExpressyA2CmF",
+            "moduleName": "TestPrivateFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "discover",
+            "printedName": "discover",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TestPrivateFramework.CardType.Type) -> TestPrivateFramework.CardType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardType",
+                    "printedName": "TestPrivateFramework.CardType",
+                    "usr": "s:20TestPrivateFramework8CardTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TestPrivateFramework.CardType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardType",
+                        "printedName": "TestPrivateFramework.CardType",
+                        "usr": "s:20TestPrivateFramework8CardTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20TestPrivateFramework8CardTypeO8discoveryA2CmF",
+            "mangledName": "$s20TestPrivateFramework8CardTypeO8discoveryA2CmF",
+            "moduleName": "TestPrivateFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "dinersClub",
+            "printedName": "dinersClub",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TestPrivateFramework.CardType.Type) -> TestPrivateFramework.CardType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardType",
+                    "printedName": "TestPrivateFramework.CardType",
+                    "usr": "s:20TestPrivateFramework8CardTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TestPrivateFramework.CardType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardType",
+                        "printedName": "TestPrivateFramework.CardType",
+                        "usr": "s:20TestPrivateFramework8CardTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20TestPrivateFramework8CardTypeO10dinersClubyA2CmF",
+            "mangledName": "$s20TestPrivateFramework8CardTypeO10dinersClubyA2CmF",
+            "moduleName": "TestPrivateFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "jcb",
+            "printedName": "jcb",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TestPrivateFramework.CardType.Type) -> TestPrivateFramework.CardType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardType",
+                    "printedName": "TestPrivateFramework.CardType",
+                    "usr": "s:20TestPrivateFramework8CardTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TestPrivateFramework.CardType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardType",
+                        "printedName": "TestPrivateFramework.CardType",
+                        "usr": "s:20TestPrivateFramework8CardTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20TestPrivateFramework8CardTypeO3jcbyA2CmF",
+            "mangledName": "$s20TestPrivateFramework8CardTypeO3jcbyA2CmF",
+            "moduleName": "TestPrivateFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TestPrivateFramework.CardType.Type) -> TestPrivateFramework.CardType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardType",
+                    "printedName": "TestPrivateFramework.CardType",
+                    "usr": "s:20TestPrivateFramework8CardTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TestPrivateFramework.CardType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardType",
+                        "printedName": "TestPrivateFramework.CardType",
+                        "usr": "s:20TestPrivateFramework8CardTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20TestPrivateFramework8CardTypeO7unknownyA2CmF",
+            "mangledName": "$s20TestPrivateFramework8CardTypeO7unknownyA2CmF",
+            "moduleName": "TestPrivateFramework"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TestPrivateFramework.CardType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardType",
+                    "printedName": "TestPrivateFramework.CardType",
+                    "usr": "s:20TestPrivateFramework8CardTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20TestPrivateFramework8CardTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s20TestPrivateFramework8CardTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "TestPrivateFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20TestPrivateFramework8CardTypeO8rawValueSSvp",
+            "mangledName": "$s20TestPrivateFramework8CardTypeO8rawValueSSvp",
+            "moduleName": "TestPrivateFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20TestPrivateFramework8CardTypeO8rawValueSSvg",
+                "mangledName": "$s20TestPrivateFramework8CardTypeO8rawValueSSvg",
+                "moduleName": "TestPrivateFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20TestPrivateFramework8CardTypeO",
+        "mangledName": "$s20TestPrivateFramework8CardTypeO",
+        "moduleName": "TestPrivateFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CardTypeValidator",
+        "printedName": "CardTypeValidator",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getCardType",
+            "printedName": "getCardType(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardType",
+                "printedName": "TestPrivateFramework.CardType",
+                "usr": "s:20TestPrivateFramework8CardTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20TestPrivateFramework17CardTypeValidatorV03getdE04fromAA0dE0OSS_tFZ",
+            "mangledName": "$s20TestPrivateFramework17CardTypeValidatorV03getdE04fromAA0dE0OSS_tFZ",
+            "moduleName": "TestPrivateFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardTypeValidator",
+                "printedName": "TestPrivateFramework.CardTypeValidator",
+                "usr": "s:20TestPrivateFramework17CardTypeValidatorV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20TestPrivateFramework17CardTypeValidatorVACycfc",
+            "mangledName": "$s20TestPrivateFramework17CardTypeValidatorVACycfc",
+            "moduleName": "TestPrivateFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20TestPrivateFramework17CardTypeValidatorV",
+        "mangledName": "$s20TestPrivateFramework17CardTypeValidatorV",
+        "moduleName": "TestPrivateFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/harikagangireddy\/Documents\/SwiftProjects\/TestPrivateFramework\/TestPrivateFramework\/CardTypeValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 169,
+      "length": 6,
+      "value": "\"Visa\""
+    },
+    {
+      "filePath": "\/Users\/harikagangireddy\/Documents\/SwiftProjects\/TestPrivateFramework\/TestPrivateFramework\/CardTypeValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 198,
+      "length": 12,
+      "value": "\"MasterCard\""
+    },
+    {
+      "filePath": "\/Users\/harikagangireddy\/Documents\/SwiftProjects\/TestPrivateFramework\/TestPrivateFramework\/CardTypeValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 18,
+      "value": "\"American Express\""
+    },
+    {
+      "filePath": "\/Users\/harikagangireddy\/Documents\/SwiftProjects\/TestPrivateFramework\/TestPrivateFramework\/CardTypeValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 277,
+      "length": 10,
+      "value": "\"Discover\""
+    },
+    {
+      "filePath": "\/Users\/harikagangireddy\/Documents\/SwiftProjects\/TestPrivateFramework\/TestPrivateFramework\/CardTypeValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 13,
+      "value": "\"Diners Club\""
+    },
+    {
+      "filePath": "\/Users\/harikagangireddy\/Documents\/SwiftProjects\/TestPrivateFramework\/TestPrivateFramework\/CardTypeValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 5,
+      "value": "\"JCB\""
+    },
+    {
+      "filePath": "\/Users\/harikagangireddy\/Documents\/SwiftProjects\/TestPrivateFramework\/TestPrivateFramework\/CardTypeValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 364,
+      "length": 9,
+      "value": "\"Unknown\""
+    }
+  ]
+}
